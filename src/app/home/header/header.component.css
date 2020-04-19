@@ -1,0 +1,51 @@
+img {
+  transform: translate(-90px, -45px);
+  width: 18vw;
+  height: 30vh;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: -40px;
+  height: 100px;
+  position: absolute;
+  width: 100%;
+}
+.menu {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  cursor: pointer;
+  margin: 10px;
+  font-weight: normal;
+  font-size: 20px;
+  padding-bottom: 40px;
+  color: #707070;
+}
+
+p:hover {
+  color: coral;
+}
+
+@media screen and (max-width: 360px) {
+  .flex {
+    padding-right: 4%;
+    position: relative;
+  }
+  p {
+    margin: 4px;
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  img {
+    width: 18vw;
+    height: 18vh;
+    transform: translate(-16px, -45px);
+  }
+}

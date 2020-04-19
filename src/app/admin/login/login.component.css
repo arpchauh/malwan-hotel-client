@@ -1,0 +1,19 @@
+.background {
+  background-color: #ff512f; /* fallback for old browsers */
+  background-image: linear-gradient(to right, #dd2476, #ff512f);
+
+  width: 100vw;
+  height: 100vh;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+h1 {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 60px;
+}

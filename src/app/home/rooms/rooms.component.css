@@ -1,0 +1,48 @@
+.bg-color {
+  background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+}
+img {
+  margin: 3%;
+  margin-left: 5%;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(22, 21, 21, 0.836);
+  padding-top: 1%;
+  font-weight: bold;
+}
+#cardforheader {
+  padding-top: 15%;
+  margin: 3%;
+  border: none;
+  background-color: transparent;
+  margin-right: 5%;
+}
+#card-for-image {
+  background-color: transparent;
+  border: none;
+}
+
+span {
+  font-weight: bold;
+}
+hr {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  img {
+    height: 250px;
+    margin: 5%;
+  }
+  #cardforheader {
+    padding-top: 1%;
+    /* align-items: center; */
+    text-align: center;
+    padding-bottom: 15%;
+  }
+  h1 {
+    padding-top: 8%;
+  }
+}

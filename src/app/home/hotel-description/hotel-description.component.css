@@ -1,0 +1,59 @@
+.hotel-description-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+
+  background-image: url("../../../assets/Group 33.png");
+  background-repeat: no-repeat;
+  background-position-x: -245%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+}
+p {
+  width: 31vw;
+  font-weight: 70px;
+  text-align: justify;
+  font-size: 1rem;
+  color: #676363;
+}
+h1 {
+  width: 32vw;
+  font-size: 3.6rem;
+}
+img {
+  height: 65vh;
+  padding-left: 7%;
+  border-radius: 5px;
+  width: 55vw;
+}
+
+@media screen and (max-width: 360px) {
+  h1 {
+    width: 100vw;
+    font-size: 39px;
+  }
+  p {
+    width: 88vw;
+    font-size: 16px;
+  }
+  .hotel-description-flex {
+    margin-top: -120px;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    margin-right: 15%;
+    width: 94vw;
+    height: 38vh;
+    border-radius: 0;
+  }
+}

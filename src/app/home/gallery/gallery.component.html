@@ -1,0 +1,28 @@
+<div class="overlay"></div>
+
+<div class="bgcolor baloo">
+  <div class="gallery">
+    <h1>Places to Visit</h1>
+    <div class="row">
+      <div class="col-lg-3" *ngFor="let item of Photos">
+        <div class="card">
+          <img src="{{ item.img }}" alt="" />
+          <h3>{{ item.place }}</h3>
+        </div>
+      </div>
+
+      <!-- <div class="col-lg-4">
+        <div class="card">
+          <img src="https://i.ibb.co/qWJ3B0h/sindhudurg-fort.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="https://i.ibb.co/F40pWQF/Scuba.jpg" alt="" />
+        </div>
+      </div> -->
+    </div>
+  </div>
+  <br />
+</div>

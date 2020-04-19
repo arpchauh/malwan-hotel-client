@@ -1,0 +1,23 @@
+<div class="bg-color baloo" id="our-rooms">
+  <div>
+    <h1>Our Rooms</h1>
+
+    <div class="row" *ngFor="let rooms of roomDetails">
+      <div class="col-lg-6">
+        <div class="card" id="card-for-image">
+          <img src="{{ rooms.img }}" alt="" />
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="card" id="cardforheader">
+          <h2><span>Room</span> : {{ rooms.heading }}</h2>
+          <h2><span>Price </span>: {{ rooms.price }}</h2>
+          <h2><span> Type</span> : {{ rooms.bedsize }}</h2>
+          <h2><span> Contact us</span> : Pandurang - 1234567890</h2>
+        </div>
+        <hr />
+      </div>
+    </div>
+  </div>
+</div>
