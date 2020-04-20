@@ -1,5 +1,7 @@
 img {
-  transform: translate(-90px, -45px);
+  z-index: 1;
+  position: absolute;
+  transform: translate(-90px, -160px);
   width: 18vw;
   height: 30vh;
 }
@@ -26,7 +28,7 @@ p {
   font-weight: normal;
   font-size: 20px;
   padding-bottom: 40px;
-  color: #707070;
+  color: white;
 }
 
 p:hover {

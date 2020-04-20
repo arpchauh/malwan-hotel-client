@@ -14,6 +14,8 @@ import { HttpClientModule } from "@angular/common/http";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { AdminHomeComponent } from "./admin/admin-home/admin-home.component";
 import { AdminComponent } from "./admin/admin.component";
+import { AboutComponent } from './home/about/about.component';
+import { OverlayComponent } from './home/overlay/overlay.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { AdminComponent } from "./admin/admin.component";
     HomeComponent,
     AdminHomeComponent,
     AdminComponent,
+    AboutComponent,
+    OverlayComponent,
   ],
   imports: [
     BrowserModule,

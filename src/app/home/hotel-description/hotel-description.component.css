@@ -11,19 +11,23 @@
 }
 
 .header {
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 5%;
 }
 p {
+  z-index: 1;
   width: 31vw;
-  font-weight: 70px;
+  font-size: 20px !important;
   text-align: justify;
   font-size: 1rem;
-  color: #676363;
+  color: white;
 }
 h1 {
+  z-index: 1;
+  color: black;
   width: 32vw;
   font-size: 3.6rem;
 }

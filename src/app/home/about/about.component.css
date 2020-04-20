@@ -1,0 +1,30 @@
+.clr {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../../assets/background-image-3.jpg");
+  background-size: cover;
+}
+h1 {
+  position: relative;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}
+img {
+  position: absolute;
+  z-index: 1;
+  margin-left: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  border-radius: 3px;
+  height: 90vh;
+  width: 40vw;
+}
+p {
+  z-index: 1000;
+  width: 95%;
+  padding-top: 30%;
+  font-size: 20px;
+  text-align: justify;
+  color: white;
+}

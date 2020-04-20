@@ -1,6 +1,15 @@
 .bgcolor {
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background-image: url("../../../assets/bacground-image1.jpg");
+  background-size: cover;
 }
+.overlay {
+  width: 100%;
+  height: 120.2%;
+  z-index: 0;
+  position: absolute;
+  background-color: #00000080;
+}
+
 h1 {
   text-align: center;
   font-weight: bold;
@@ -32,13 +41,6 @@ h3 {
   margin-top: 30px;
   background-color: #434343;
   border-radius: 3px;
-}
-
-.overlay {
-  width: 100%;
-  height: 100%;
-
-  background-color: rgba(97, 172, 75, 0.925);
 }
 
 @media screen and (max-width: 720px) {

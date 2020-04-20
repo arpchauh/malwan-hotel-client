@@ -1,23 +1,30 @@
 .bg-color {
-  background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+  background-image: url("../../../assets/background-image2.jpg");
+  background-size: cover;
 }
 img {
+  width: 40vw;
   margin: 3%;
   margin-left: 5%;
+  z-index: 1;
 }
 
 h1 {
+  z-index: 1;
   text-align: center;
-  color: rgba(22, 21, 21, 0.836);
+  color: white;
   padding-top: 1%;
   font-weight: bold;
 }
+
 #cardforheader {
-  padding-top: 15%;
+  z-index: 1;
+  color: white;
+  padding-top: 5%;
   margin: 3%;
   border: none;
   background-color: transparent;
-  margin-right: 5%;
+  padding-left: 20%;
 }
 #card-for-image {
   background-color: transparent;
@@ -26,9 +33,19 @@ h1 {
 
 span {
   font-weight: bold;
+  z-index: 1;
 }
 hr {
   display: none;
+}
+
+.overlay {
+  width: 100%;
+  height: 178.6%;
+  z-index: 0;
+  position: absolute;
+
+  background-color: #00000080;
 }
 
 @media screen and (max-width: 720px) {

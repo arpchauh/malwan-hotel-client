@@ -3,15 +3,16 @@ import { Routes, RouterModule } from "@angular/router";
 import { HomeComponent } from "./home/home.component";
 import { LoginComponent } from "./admin/login/login.component";
 import { AdminHomeComponent } from "./admin/admin-home/admin-home.component";
+import { AdminComponent } from "./admin/admin.component";
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
   {
     path: "admin",
-    component: LoginComponent,
+    component: AdminComponent,
     children: [
       {
-        path: "login",
+        path: "",
         component: LoginComponent,
       },
       {
